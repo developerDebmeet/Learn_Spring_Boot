@@ -47,7 +47,12 @@ Spring Boot Embedded Servers
     - how its done now?
         - using embedded server
         - install Java
-        - Run JAR file
+        - Run JAR file : java -jar <jarfile.jar>
+        - Make JAR not WAR
+        - Embedded Server Examples :
+            - spring-boot-starter-tomcat
+            - spring-boot-starter-jetty
+            - spring-boot-starter-undertow
 
 
 
