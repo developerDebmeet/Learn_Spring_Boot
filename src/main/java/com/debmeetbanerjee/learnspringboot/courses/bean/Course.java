@@ -12,6 +12,10 @@ public class Course {
     private String courseName;
     private String author;
 
+    public Course() {
+        // Every Entity needs to have a default constructor
+    }
+
     public Course(int id, String courseName, String author) {
         this.id = id;
         this.courseName = courseName;

@@ -17,10 +17,12 @@ public class CourseController {
 
     @GetMapping("/courses")
     public List<Course> getAllCourses() {
-        return Arrays.asList(
-                new Course(1, "Learn Java", "Debmeet Banerjee"),
-                new Course(2, "Learn OOPS", "Leo Tolstoy")
-        );
+//        return Arrays.asList(
+//                new Course(1, "Learn Java", "Debmeet Banerjee"),
+//                new Course(2, "Learn OOPS", "Leo Tolstoy")
+//        );
+
+        return repository.findAll();
 
     }
 
