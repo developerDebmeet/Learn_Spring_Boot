@@ -20,4 +20,7 @@ public class CourseController {
     }
 
     @GetMapping("/courses/1")
+    public Course getCourse() {
+        return new Course(0, "learn nothing", "Anonymous");
+    }
 }
