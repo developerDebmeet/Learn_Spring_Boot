@@ -69,8 +69,13 @@ Spring Boot vs Spring MVC vs Spring
         - Spring Modules and Spring Projects : good integration with other frameworks (Hibernate/JPA, JUnit&Mockito
         for Unit Testing)
     - Spring MVC (spring module) : Build web applications in a decoupled approach
-        - Dispatcher Servlet, ModelAndView and View Resolver etc
+        - Dispatcher Servlet, ModelAndView and View Resolver etc.
     - Spring Boot (Spring Project) : Build production ready apps quickly
+        - Starter Projects : Make it easy to build variety of apps
+        - Auto Configuration : Eliminate configuration to setup Spring, Spring MVC and other projects
+        - Enable production ready non-functional features :
+            - Actuator : Enables Advanced Monitoring and Tracing of applications
+            - Embedded Servers : no need for separate application servers.
 
 
 
