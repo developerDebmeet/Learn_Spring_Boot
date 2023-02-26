@@ -34,6 +34,10 @@ public class Course {
         return author;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String toString() {
        return "[.. ID : " + id + " Name : " + courseName + " Author : " + author + " ..]";
     }
