@@ -15,4 +15,6 @@ public class CourseController {
         return Arrays.asList(new Course(1, "Lean Java", "Debmeet Banerjee"));
 
     }
+
+    @GetMapping("/courses/1")
 }
