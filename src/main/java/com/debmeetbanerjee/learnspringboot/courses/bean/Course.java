@@ -1,6 +1,13 @@
 package com.debmeetbanerjee.learnspringboot.courses.bean;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
+    @Id
+    @GeneratedValue
     private int id;
     private String courseName;
     private String author;
