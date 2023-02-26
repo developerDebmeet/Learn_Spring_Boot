@@ -55,6 +55,14 @@ Spring Boot Embedded Servers
             - spring-boot-starter-undertow
 
 
+Spring Boot Actuator : Monitor and manage app in production
+    - provides a number of endpoints :
+        beans : complete list of spring beans in app
+        health : application health information
+        metrics : application metrics
+        mappings : details around request mappings
+
+
 
 
 
