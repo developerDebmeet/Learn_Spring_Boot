@@ -4,10 +4,12 @@ import com.debmeetbanerjee.learnspringboot.courses.bean.Course;
 import com.debmeetbanerjee.learnspringboot.courses.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class CourseController {
@@ -27,7 +29,12 @@ public class CourseController {
     }
 
     @GetMapping("/courses/1")
-    public Course getCourse() {
-        return new Course(0, "learn nothing", "Anonymous");
+    public Course getCourseById(@PathVariable long id) {
+//        return new Course(0, "learn nothing", "Anonymous");
+        Optional<Course> course = repository.findById(id);
+        if(course.isEmpty()) {
+            throw new RuntimeException("Course not found with id " + id);
+        }
+        return course.get();
     }
 }
