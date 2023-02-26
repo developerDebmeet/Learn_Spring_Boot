@@ -97,6 +97,8 @@ REST API :
     - REST API is an architectural style for the web
     - Resource : any info, eg Courses
     - URI : Unique Resource Identifier, eg /courses
+    - Actions can be performed on a resource (create,get,delete,update)
+    Different HTTP Request Methods are used for different operations.
 
 
 
