@@ -39,11 +39,16 @@ Spring Boot Auto Configuration
 
 
 Spring Boot Embedded Servers
-    - how to deploy app?
+    - how to deploy app[OLD WAR Approach]?
         - install Java
         - install web/app server
             eg : tomcat/webSphere/webLogic etc
         - Deploy the application WAR [Web ARchive]
+    - how its done now?
+        - using embedded server
+        - install Java
+        - Run JAR file
+
 
 
 
