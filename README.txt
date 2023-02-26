@@ -63,6 +63,15 @@ Spring Boot Actuator : Monitor and manage app in production
         mappings : details around request mappings
 
 
+Spring Boot vs Spring MVC vs Spring
+    - Spring Framework : Core Feature : Dependency Injection
+        - @Component, @Autowired, IOC Container, ApplicationContext, Component Scan etc
+        - Spring Modules and Spring Projects : good integration with other frameworks (Hibernate/JPA, JUnit&Mockito
+        for Unit Testing)
+    - Spring MVC (spring module) : Build web applications in a decoupled approach
+
+
+
 
 
 
