@@ -90,6 +90,10 @@ Spring Data JPA
     - makes JPA even more simple
 
 
+Queries in data.sql file is auto executed in in-memory database like h2 during startup
+
+
+
 
 
 
