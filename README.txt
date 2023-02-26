@@ -76,6 +76,20 @@ Spring Boot vs Spring MVC vs Spring
         - Enable production ready non-functional features :
             - Actuator : Enables Advanced Monitoring and Tracing of applications
             - Embedded Servers : no need for separate application servers.
+            - default error handling
+
+
+JDBC [Java DataBase Connectivity]
+    - Write a lot of SQL queries with a lot of java code to execute it
+Spring JDBC
+    - Write a lot of SQL queries with lesser java code to execute it
+JPA [Java Persistence API] [one of the most popular JPA framework is Hibernate]
+    - Do NOT worry about queries
+    - Just Map Entities to Tables.
+Spring Data JPA
+    - makes JPA even more simple
+
+
 
 
 
