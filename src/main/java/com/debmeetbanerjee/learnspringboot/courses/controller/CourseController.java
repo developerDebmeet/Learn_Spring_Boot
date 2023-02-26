@@ -40,4 +40,9 @@ public class CourseController {
     public void createCourse(@RequestBody Course course) {
         repository.save(course);
     }
+
+    @PutMapping("/courses")
+    public void updateCourse(@RequestBody Course course) {
+        repository.save(course);
+    }
 }
