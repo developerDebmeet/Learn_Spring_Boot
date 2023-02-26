@@ -38,5 +38,13 @@ Spring Boot Auto Configuration
                 - eg of autoconfigure : default 404 pages for paths which are not defined in code
 
 
+Spring Boot Embedded Servers
+    - how to deploy app?
+        - install Java
+        - install web/app server
+            eg : tomcat/webSphere/webLogic etc
+        - Deploy the application WAR [Web ARchive]
+
+
 
 
