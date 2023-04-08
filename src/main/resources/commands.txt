@@ -1,0 +1,26 @@
+Launch MySQL using Docker
+
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=courses-user --env MYSQL_PASSWORD=dummycourses --env MYSQL_DATABASE=courses --name mysql --publish 3306:3306 mysql:5.7
+
+
+
+mysqlsh commands
+
+mysqlsh
+\connect courses-user@localhost:3306
+\sql
+use courses
+select * from course;
+\quit
+
+
+
+
+Docker Commands
+
+docker container ls
+docker container stop ID
+
+
+
+
